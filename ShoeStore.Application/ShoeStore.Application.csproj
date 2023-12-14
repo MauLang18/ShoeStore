@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.1" />
+    <PackageReference Include="WatchDog.NET" Version="1.4.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShoeStore.Domain\ShoeStore.Domain.csproj" />
+    <ProjectReference Include="..\ShoeStore.Infrastructure\ShoeStore.Infrastructure.csproj" />
+    <ProjectReference Include="..\ShoeStore.Utilities\ShoeStore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
